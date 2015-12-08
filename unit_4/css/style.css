@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+
+body {
+	background-color: rgb(249,255,245);
+	color: black;
+	font-family: Helvetica
+}
+h1, {
+	font-family: 'Ultra', serif;
+	text-transform: uppercase;
+}
+nav{
+	font-size: 15px;
+	text-decoration: none;
+}
+p {
+	font-family: 'Crimson Text', serif;
+}
+div {
+	background-image: url("../images/captainoutihamara.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#girls{
+	margin-left: 300px;
+}
+hr{
+	border-style: solid;
+}
+ul{
+	font-size: 15px;
+}
+#start{
+
+}
+h4{
+	font-style: bold;
+}
+section {
+	font-size: 15px;
+	margin-right: 600px
+}
