@@ -4,18 +4,29 @@
 body {
 	background-color: rgb(249,255,245);
 	color: black;
-	font-family: Helvetica
 }
-h1, {
+h1 {
+	font-style: bold;
 	font-family: 'Ultra', serif;
 	text-transform: uppercase;
 }
+
 nav{
 	font-size: 15px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 	text-decoration: none;
+	letter-spacing: 9px;
+	word-spacing: ;
+	line-height: ;
 }
+p, nav, ul
+{
+font-family: 'Crimson Text', serif;
+	}
 p {
-	font-family: 'Crimson Text', serif;
+	
 }
 div {
 	background-image: url("../images/captainoutihamara.jpg");
@@ -37,6 +48,7 @@ ul{
 }
 h4{
 	font-style: bold;
+	font-family: 'Ultra', serif;
 }
 section {
 	font-size: 15px;
