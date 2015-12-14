@@ -9,32 +9,34 @@ h1, {
 nav{
 	font-size: 15px;
 	text-decoration: none;
+	letter-spacing: 5px;
 }
 p {
 	
 }
-div {
-	background-image: url("../images/captainoutihamara.jpg");
+section {
+	background: url("../images/goodworkingatmosphere.jpg"); /*not working*/
 	height: 500px;
 	background-repeat: no-repeat;
 	text-align: center;
+	font-size: 15px;
+	margin-right: 600px
 }
 #girls{
-	margin-left: 300px;
+	margin-left: 100px; /*not working*/
 }
 hr{
 	border-style: solid;
 }
 ul{
 	font-size: 15px;
+	letter-spacing: 7px; /*not working*/
 }
-#start{
+#start {}
 
+#thisis{
+letter-spacing: 2px;
 }
 h4{
 	font-style: bold;
-}
-section {
-	font-size: 15px;
-	margin-right: 600px
 }

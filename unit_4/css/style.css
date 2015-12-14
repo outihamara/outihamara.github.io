@@ -5,6 +5,7 @@ body {
 	background-color: rgb(249,255,245);
 	color: black;
 }
+
 h1 {
 	font-style: bold;
 	font-family: 'Ultra', serif;
@@ -21,36 +22,59 @@ nav{
 	word-spacing: ;
 	line-height: ;
 }
-p, nav, ul
-{
+
+p, nav, ul {
 font-family: 'Crimson Text', serif;
 	}
 p {
-	
+	column-count: ;
 }
-div {
+nav {
+	text-decoration: none; /*why is the line not disappearing?*/
+}
+header {
 	background-image: url("../images/captainoutihamara.jpg");
 	height: 500px;
 	background-repeat: no-repeat;
 	text-align: center;
 }
-#girls{
-	margin-left: 300px;
+
+#utlabore {
+	font-weight: bold;
+	color: red;
 }
 hr{
 	border-style: solid;
 }
+
 ul{
 	font-size: 15px;
+	list-style: none;
 }
-#start{
 
+#thisis{
+letter-spacing: .5;
+text-transform: lowercase;
 }
+
 h4{
 	font-style: bold;
 	font-family: 'Ultra', serif;
 }
+
 section {
+	background: url("../images/goodworkingatmosphere.jpg");
+	background-repeat: no-repeat;
+	text-align: left;
 	font-size: 15px;
-	margin-right: 600px
+	margin-right: 100px;
+	padding-bottom: 200px;
+}
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	background-image: url("../images/outi.jpg");
+	background-repeat: none;
+	webkit-column-count: 2; /*not working*/
 }
