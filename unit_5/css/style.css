@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+
+body {
+	background-color: rgb(249,255,245);
+	color: black;
+}
+
+header {
+	background-image: url("../images/captainoutihamara.jpg");
+	height: 500px;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+h1 {
+	font-style: bold;
+	font-family: 'Ultra', serif;
+	text-transform: uppercase;
+}
+
+nav{
+	background-color: #E8C66A;
+	font-size: 15px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 9px;
+	word-spacing: ;
+	line-height: ;
+}
+
+a {
+text-decoration: none;
+}
+
+p, nav, ul {
+font-family: 'Crimson Text', serif;
+	}
+
+section {
+	background: url("../images/goodworkingatmosphere.jpg");
+	background-repeat: no-repeat;
+	background-color: #FFE2B8;
+	text-align: left;
+	font-size: 15px;
+	margin-right: 100px;
+	padding-bottom: 200px;
+}
+
+	h4 {
+	font-style: bold;
+	font-family: 'Ultra', serif;
+}
+
+p {
+	column-count: ;
+}
+
+ul {
+	font-size: 15px;
+	list-style: none;
+}
+
+hr {
+	border-style: solid;
+}
+
+#thisis{
+letter-spacing: .5;
+text-transform: lowercase;
+}
+
+#utlabore {
+	font-weight: bold;
+	color: red;
+}
+
+#contact{
+	float: left;
+}
+
+.clearfix:after{
+	height: 0;
+font-size: 0;
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;}
+
+footer {
+	background-color: #FF957E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	webkit-column-count: 2;
+}
+
+footer img {
+	float: right;
+	width: 180px;
+}
