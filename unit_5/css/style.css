@@ -7,7 +7,7 @@ body {
 }
 
 header {
-	background-image: url("../images/captainoutihamara.jpg");
+	background-image: url("../images/outiatherdesk.jpg");
 	height: 500px;
 	background-color: #FFED74;
 	border: 1px black solid;
@@ -22,7 +22,7 @@ h1 {
 	text-transform: uppercase;
 }
 
-nav{
+nav {
 	background-color: #E8C66A;
 	font-size: 15px;
 	width: 1200px;
@@ -35,14 +35,23 @@ nav{
 
 a {
 text-decoration: none;
+color: black;
 }
 
 p, nav, ul {
 font-family: 'Crimson Text', serif;
 	}
 
-section {
-	background: url("../images/goodworkingatmosphere.jpg");
+#left {
+	background-color: #FFE2B8;
+	text-align: left;
+	font-size: 15px;
+	margin-right: 100px;
+	padding-bottom: 200px;
+}
+
+#right {
+	background: url("../images/outiatherdesk.jpg");
 	background-repeat: no-repeat;
 	background-color: #FFE2B8;
 	text-align: left;
@@ -70,7 +79,7 @@ hr {
 }
 
 #thisis{
-letter-spacing: .5;
+letter-spacing: normal;
 text-transform: lowercase;
 }
 
@@ -95,10 +104,12 @@ footer {
 	background-color: #FF957E;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-left: 10px;
 	webkit-column-count: 2;
 }
 
 footer img {
 	float: right;
 	width: 180px;
+	padding-right: 10px;
 }
