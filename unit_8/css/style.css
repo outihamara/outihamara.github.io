@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+
+body {
+	background-color: rgb(249,255,245);
+	color: black;
+}
+
+header {
+	height: 500px;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-style: bold;
+	font-family: 'Ultra', serif;
+	text-transform: uppercase;
+}
+
+nav {
+	background-color: #E8C66A;
+	font-size: 15px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto; 
+	letter-spacing: 9px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+section {
+	background-color: #FFE2B8;
+	text-align: left;
+	font-size: 15px;
+	margin-right: 100px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+p, nav, ul {
+	font-family: 'Crimson Text', serif;
+	}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 2%;
+	float: left;
+	width: 30%;
+	font-size: 15px;
+}
+
+#right {
+	background: url("../images/outiatherdesk.jpg") no-repeat center center scroll; /*difference between bg img and image?*/
+	background-size: cover;
+	height: 533px;
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 2%;
+	font-size: 15px;
+	float: right;
+	width: 60%;
+	word-spacing: 2px;
+	line-height: 2em;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+}
+
+	h4 {
+	font-style: bold;
+	font-family: 'Ultra', serif;
+}
+
+ul {
+	font-size: 15px;
+	list-style: none;
+}
+
+hr {
+	border-style: solid;
+}
+
+#thisis{
+	letter-spacing: normal;
+	text-transform: lowercase;
+}
+
+#utlabore {
+	font-weight: bold;
+	color: red;
+}
+
+#contact{
+	float: left;
+}
+
+.clearfix:after {
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+footer {
+	background-color: #FF957E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+footer img {
+	float: right;
+	width: 180px;
+	padding-right: 10px;
+}
