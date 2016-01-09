@@ -1,9 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 @import url(https://fonts.googleapis.com/css?family=Ultra);
 
-body {
-	background-color: rgb(249,255,245);
-	color: black;
+* { 
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+}
+
+body{
+		background-color: rgb(249,255,245);
+		color: black;
 }
 
 header, section, hr, footer {
@@ -11,91 +17,91 @@ header, section, hr, footer {
 }
 
 nav, section, footer, ul {
-	font-size: 16px;
+		font-size: 16px;
 }
 
-header {
-	margin: auto;
-	text-align: center;
+header{
+		margin: auto;
+		text-align: center;
 }
 
-h1 {
-	font-style: bold;
-	font-family: 'Ultra', serif;
-	text-transform: uppercase;
+h1{
+		font-style: bold;
+		font-family: 'Ultra', serif;
+		text-transform: uppercase;
 }
 
-nav {
-	margin-left: auto;
-	margin-right: auto; 
-	margin-bottom: 10em;
-	letter-spacing: .9em;
+nav{
+		margin: 1em 2em 4em 2em; 
+		letter-spacing: .5em;
+		display: block;
+		text-decoration: none; /*ISN'T WORKING!*/
+		color: black;
 }
 
-a {
-	text-decoration: none;
-	color: black;
-	padding: 3em;
+a{
+		text-decoration: none;
+		color: #000;
 }
 
-section {
-	padding-bottom: 2em;
-	margin: auto;
+section{
+		padding-bottom: 2em;
+		margin: auto;
 }
 
 p, nav, ul, footer {
-	font-family: 'Crimson Text', serif;
+		font-family: 'Crimson Text', serif;
 	}
 
+a:hover{
+		text-transform: underline;
+}
+
 #left {
-	padding-top: 2%;
-	padding-right: 2%;
-	float: left;
-	width: 26%;
+		padding:2em;
+		float: left; 
+		width: 33.33%;
 }
 
-#right {
-	background: url("../images/outiatherdesk.jpg") no-repeat center center scroll; /*difference between bg img and image?*/
-	background-size: cover; /*what does cover mean in this case?*/
-	height: 35em;
-	/*height: 533px;*/
-	background-color: rgb(249, 255, 245);
-	float: right;
-	width: 66%;
-padding-left: 4%; 
-padding-top: 2%;
-	word-spacing: 2px;
-	line-height: 2em;
+#right{
+		background: url("../images/outiatherdesk.jpg") no-repeat center center scroll; /*difference between bg img and image?*/
+		background-size: cover; /*what does cover mean in this case?*/
+		height: 35em;
+		/*height: 533px;*/
+		background-color: rgb(249, 255, 245);
+		float: left;
+		width: 64.66%;
+		margin-left: 2%;
+		padding:2em;
+		word-spacing: 2px;
+		line-height: 2em;
 }
 
-#two_column {
+#upperlogo{
+		margin-top: 2em;
+		width: 180px;
 }
 
-	h4 {
-	font-style: bold;
-	font-family: 'Ultra', serif;
+	h4{
+		font-style: bold;
+		font-family: 'Ultra', serif;
 }
 
-ul {
-	list-style: none;
-}
-
-hr {
-	border-style: solid;
-	margin: auto;
+ul{
+		list-style: none;
 }
 
 #thisis{
-	letter-spacing: normal;
-	text-transform: lowercase;
+		letter-spacing: normal;
+		text-transform: lowercase;
 }
 
-#utlabore {
-	font-weight: bold;
-	color: red;
-}
+#utlabore{
+		font-weight: bold;
+		color: red;
+	}
 
-.clearfix:after {
+.clearfix:after{
 	height: 0;
 	font-size: 0;
 	visibility: hidden;
@@ -104,28 +110,37 @@ hr {
 	clear: both;
 }
 
-footer {
-	margin-left: 10%;
-	padding-top: 1em;
-	padding-bottom: 50px;	
+footer{
+		margin-left: 10%;
+		padding-top: 1em;
+		padding-bottom: 50px;	
+		border-top: 1px solid;
 }
 
 #contact{
-	float: left;
+		float: left;
 }
 
-footer img {
-	float: right;
-	width: 180px;
+#mail{
+		text-decoration: none;
+		color: inherit;
+}
+
+footer img{
+		float: right;
+		width: 180px;
 }
 
 @media only screen and (max-width: 944px) {
-a {
+
+a{
 	display: block;
+	text-decoration: none;
+	color: black;
 }
 
-nav {
-	margin-bottom: 1em;
+nav{
+	margin-bottom: 2em;
 	}
 }
 
@@ -136,19 +151,29 @@ nav {
 	}
 }
 
-@media only screen and (max-width: 730px) {
-	h4 {
-		font-size: 14px
-	}
-	aside {
-		text: notext;
-	}
-}
-@media only screen and (max-width: 730px) {
-	#contact, footer img {
+@media only screen and (max-width: 730px){
+	/*this is the scree size where i want to duplicate the logo into the top of the page and replace the nav links with an hamburger icon - possible?*/
+	article{
+		display:none; }
+		#contact, footer img {
 		float: none;
+		display: block;
+		padding-bottom: 2em;
+		text-align: center;
 		margin: auto;
-			}}
+	}}
+
+@media only screen and (min-width: 730px){
+
+	#upperlogo{
+		display: none;
+	}}
+	
+
+@media only screen and (max-width: 550px){
+	}	a:active{
+		color: red;
+			}} /*ISN'T WORKING! (/is working for all screen sizes)*/
 
 
 
