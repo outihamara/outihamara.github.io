@@ -85,8 +85,7 @@ a:hover{
 		margin-top: 2em;
 		width: 180px;
 }
-
-	h4{
+h4{
 		font-style: bold;
 		font-family: 'Ultra', serif;
 }
@@ -103,7 +102,7 @@ ul{
 #utlabore{
 		font-weight: bold;
 		color: red;
-	}
+}
 
 .clearfix:after{
 	height: 0;
@@ -115,14 +114,14 @@ ul{
 }
 
 footer{
-		margin-left: 10%;
-		padding-top: 1em;
-		padding-bottom: 50px;	
-		border-top: 1px solid;
+	margin-left: 10%;
+	padding-top: 1em;
+	padding-bottom: 50px;	
+	border-top: 1px solid;
 }
 
 #contact{
-		float: left;
+	float: left;
 }
 
 #mail{
@@ -144,15 +143,13 @@ footer{
 }
 
 @media only screen and (max-width: 944px) {
-
-a{
-	display: block;
-	text-decoration: none;
-	color: black;
-}
-
-nav{
-	margin-bottom: 2em;
+	a{
+		display: block;
+		text-decoration: none;
+		color: black;
+	}
+	nav{
+		margin-bottom: 2em;
 	}
 }
 
@@ -166,26 +163,29 @@ nav{
 @media only screen and (max-width: 730px){
 	/*this is the screen size where i want to duplicate the logo into the top of the page and replace the nav links with an hamburger icon - possible?*/
 	article{
-		display:none; }
-		#contact, footer img {
+		display:none;
+	}
+	#contact, footer img {
 		float: none;
 		display: block;
 		padding-bottom: 2em;
 		text-align: center;
 		margin: auto;
-	}}
+	}
+}
 
-@media only screen and (min-width: 730px){
-
+@media only screen and (max-width: 730px){
 	#upperlogo{
 		display: none;
-	}}
+	}
+}
 	
 
 @media only screen and (max-width: 550px){
-	}	a:active{
+	a:active{
 		color: red;
-			}} /*ISN'T WORKING! (/is working for all screen sizes)*/
+	}
+}
 
 
 
