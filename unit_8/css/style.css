@@ -12,7 +12,7 @@ body{
 		color: black;
 }
 
-header, section, hr, footer {
+header, section, hr, footer, article {
 	width: 80%;
 }
 
@@ -35,7 +35,7 @@ nav{
 		margin: 1em 2em 4em 2em; 
 		letter-spacing: .5em;
 		display: block;
-		text-decoration: none; /*ISN'T WORKING!*/
+		text-decoration: none;
 		color: black;
 }
 
@@ -54,7 +54,7 @@ p, nav, ul, footer {
 	}
 
 a:hover{
-		text-transform: underline;
+		text-transform: underline; /*not working*/
 }
 
 #left {
@@ -65,7 +65,7 @@ a:hover{
 
 #right{
 		background: url("../images/outiatherdesk.jpg") no-repeat center center scroll; /*difference between bg img and image?*/
-		background-size: cover; /*what does cover mean in this case?*/
+		background-size: cover;
 		height: 35em;
 		/*height: 533px;*/
 		background-color: rgb(249, 255, 245);
@@ -75,6 +75,10 @@ a:hover{
 		padding:2em;
 		word-spacing: 2px;
 		line-height: 2em;
+}
+
+#thisisme{
+	background-color: #fff;
 }
 
 #upperlogo{
@@ -126,7 +130,15 @@ footer{
 		color: inherit;
 }
 
-footer img{
+#some{
+		margin: 0em 1em;
+}
+
+.some{
+		margin-right: 3em; /*not working*/
+}
+
+#outilogo{
 		float: right;
 		width: 180px;
 }
@@ -152,7 +164,7 @@ nav{
 }
 
 @media only screen and (max-width: 730px){
-	/*this is the scree size where i want to duplicate the logo into the top of the page and replace the nav links with an hamburger icon - possible?*/
+	/*this is the screen size where i want to duplicate the logo into the top of the page and replace the nav links with an hamburger icon - possible?*/
 	article{
 		display:none; }
 		#contact, footer img {
