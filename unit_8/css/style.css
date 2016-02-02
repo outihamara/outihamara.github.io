@@ -10,31 +10,25 @@
 body{
 		background-color: rgb(245, 233, 244);
 		color: black;
+		font-size: 16px;
+		font-family: 'Crimson Text', serif;
 }
 
 header, section, hr, footer, article{
 	width: 80%;
-}
-
-nav, section, footer {
-		font-size: 16px;
-}
-
-p, nav, footer {
-		font-family: 'Crimson Text', serif;
 	}
 
 header{
 		margin: auto;
 		text-align: center;
 		padding-top: 3em;
-
 }
 
 h1{
 		font-style: bold;
 		font-family: 'Special', serif;
 		text-transform: uppercase;
+		margin-bottom: 1.5em;
 
 }
 
@@ -49,18 +43,22 @@ ul{
 		list-style: none;
 }
 
-nav{
-		margin: 1em 3em 4em 3em; 
-		letter-spacing: .5em;
+nav{	
+		letter-spacing: .7em;
 		display: block;
-		text-decoration: none;
 		color: black;
 		font-size: 20px;
+		margin-bottom: 5em;
 }
 
 a{
 		text-decoration: none;
 		color: #000;
+}		
+
+nav a{
+
+		margin-right: 3em;
 }
 
 section{
@@ -69,11 +67,19 @@ section{
 		height: 50em;
 }
 
+p{
+		margin-bottom: 1em;
+}
+
 footer{
 		margin-left: 10%;
 		padding-top: 1em;
-		padding-bottom: 50px;	
+		/*padding-bottom: 50px;*/	
 		border-top: 1px solid;
+}
+
+label{
+		display: none;
 }
 
 a:hover{
@@ -82,10 +88,6 @@ a:hover{
 
 #menu{
 	display: none;
-}
-
-label{
-		display: none;
 }
 
 #left {
@@ -120,7 +122,6 @@ label{
 		padding-bottom: 4em;
 		height: ;
 }
-<<<<<<< HEAD
 
 #myskills{
 		margin: inherit;
@@ -128,11 +129,6 @@ label{
 		padding-top: 4em;
 		margin-left: 10%;
 		height: 50em;
-=======
-h4{
-		font-style: bold;
-		font-family: 'Ultra', serif;
->>>>>>> origin/master
 }
 
 #upperlogo{
@@ -150,8 +146,6 @@ h4{
 #utlabore{
 		font-weight: bold;
 		color: red;
-<<<<<<< HEAD
-=======
 }
 
 .clearfix:after{
@@ -163,16 +157,9 @@ h4{
 	clear: both;
 }
 
-footer{
-	margin-left: 10%;
-	padding-top: 1em;
-	padding-bottom: 50px;	
-	border-top: 1px solid;
->>>>>>> origin/master
-}
-
 #contact{
 	float: left;
+	margin-left: 2em;
 }
 
 #mail{
@@ -183,34 +170,39 @@ footer{
 #outilogo{
 		float: right;
 		width: 180px;
-		padding-bottom: 2em;
-}
-
-#li, {
-	 	margin-right: 3em;
-		padding-bottom: 1em;  	
-}
-
-#li, {
-	 margin-right: 3em;
-}
-
-#t {
 		padding-bottom: 1em;
-		margin-left: 2em; 
-} 		
+}
+
+#pin, #li, #fb, #t, #ins {
+		display: block;
+}
+
+#ins {
+		margin-left: .7em;
+}
+
+#li {
+	 	margin-left: .7em;
+		padding-top: .1em;
+}		
 
 #pin {
-		padding-bottom: 1em;
-		margin-left: 3em; 
+		margin-left: .5em;
+		padding-top: .2em;
 } 
-#li {
-		padding-bottom: 2em; 
-} 		
-
+	
 #fb {
-		margin-left: 2em;
-		padding-bottom: 1em; 
+		margin-left: .5em;
+}
+
+.some{
+		float: left;
+		display: block;
+}
+
+.logo {
+		float: left;
+		width: 100%;
 }
 
 .clearfix:after{
@@ -222,43 +214,21 @@ footer{
 		clear: both;
 }
 
-.some{
-		float: right;
-		text-align: center;
-		display: inline;
-		margin: auto;
-		margin-right: 7em;
-		margin-top: 4em;
-}
-
-
-
 @media only screen and (max-width: 944px) {
-<<<<<<< HEAD
 
-body{
+	body{
 		background-color: white;
 }
 
-a{
-		display: block;
-		text-decoration: none;
-		color: black;
-}
-
-nav{
-		margin-bottom: 2em;
-		}
-=======
 	a{
 		display: block;
 		text-decoration: none;
 		color: black;
-	}
+}
+
 	nav{
 		margin-bottom: 2em;
-	}
->>>>>>> origin/master
+		}
 }
 
 @media only screen and (max-width: 900px) {
@@ -266,98 +236,84 @@ nav{
 		float: none;
 		width: auto;
 	}
-	#outilogo {
-		float:none;
-	}
 
 	.some {
-		padding-top: 7em;
-		margin: auto;
-		float: none;
+		float: left;
 		display: inline;
 	}
 
 	#pin, #li, #fb, #t, #ins {
-		margin: auto;
 		padding: none;
 	}
 }
 
 @media only screen and (max-width: 730px){
+	
 	article{
-<<<<<<< HEAD
 		display:none; }
 	
-h1 {	
+	h1 {	
 		margin-bottom: 2em;
 	}
-
-
-=======
-		display:none;
-	}
->>>>>>> origin/master
-	#contact, footer img {
-		float: none;
-		display: block;
-		padding-bottom: 2em;
-		text-align: center;
-		margin: auto;
-	}
-<<<<<<< HEAD
-
-label{
+	
+	label{
 		display:block;
-}
+	}
 
-nav{
+	nav{
 		display:none;
-}
+	}
 
-#menu:checked + nav{
+	a:active{
+		color: red; /*ISN'T WORKING!*/
+	}
+	
+	#menu:checked + nav{
 		display:block;
 		float:left;
 		padding-top: 3em;
-}
+	}
 
 	.myskills, #thisisme{
 		display: none;
 		height: 0px;
 	}
-	.some{
-		margin-left: 1em;
-	}
 
 	#upperlogo{
-		display: inline;
+		display: block;
 		float:left;
 		margin-left: 3em;
 	}
 }
 
-/*new browser link for nav links?*/
-
-
-=======
-}
-
-@media only screen and (max-width: 730px){
-	#upperlogo{
-		display: none;
-	}
-}
->>>>>>> origin/master
-	
 
 @media only screen and (max-width: 550px){
-	a:active{
-		color: red;
-<<<<<<< HEAD
-			}} /*ISN'T WORKING!
-=======
+
+	.some{
+		display: block;
 	}
-}
->>>>>>> origin/master
+
+	#pin, #li, #fb, #t, #ins {
+		margin-top: 1em;
+	}
+
+	#t{
+		margin-left: none;
+	}
+	
+	#contact {
+		display: block;
+		margin-top: 3em;
+		margin-left: 4em;
+	}
+
+	footer img{
+		display: block;
+		margin-top: 2em;
+		margin-right: 6em;
+	}
+} 
+
 
 
 
