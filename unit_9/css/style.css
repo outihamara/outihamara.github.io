@@ -138,7 +138,7 @@ a:hover{
 		display: none;
 }
 
-#thisis {
+#smalleters {
 		letter-spacing: normal;
 		text-transform: lowercase;
 }
@@ -193,6 +193,10 @@ a:hover{
 	
 #fb {
 		margin-left: .5em;
+}
+
+.mobilelinks{
+		display:none;
 }
 
 .some{
@@ -258,10 +262,17 @@ a:hover{
 	
 	label{
 		display:block;
+		float: left;
+		padding-top: 30px;
+		margin-left: 90px;
 	}
 
 	nav{
 		display:none;
+	}
+
+	header{
+		z-index: ;
 	}
 
 	a:active{
@@ -270,19 +281,43 @@ a:hover{
 	
 	#menu:checked + nav{
 		display:block;
-		float:left;
-		padding-top: 3em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		clear: both;
+		background-color: white;
 	}
 
+	#upperlogo{
+		display: block;
+		margin-left: 3em;
+	}
+
+	#right{
+		position: absolute;
+		float: none;
+		width: 80%;
+		margin-left: 0;
+		top: 250px;
+		z-index: -1;
+	}
+	
 	.myskills, #thisisme{
 		display: none;
 		height: 0px;
 	}
 
-	#upperlogo{
+	.logo{
 		display: block;
-		float:left;
-		margin-left: 3em;
+		width: 180px;
+		float: left;
+	}
+
+	.mainlinks {
+		display: none;
+	}
+
+	.mobilelinks {
+		display: block;
 	}
 }
 
@@ -303,17 +338,48 @@ a:hover{
 	
 	#contact {
 		display: block;
-		margin-top: 3em;
-		margin-left: 4em;
+		margin-top: 2em;
+		margin-left: 3em;
 	}
 
 	footer img{
 		display: block;
-		margin-top: 2em;
 		margin-right: 6em;
 	}
 } 
 
+@media only screen and (max-width: 520px){
 
+	#pin, #li, #fb, #t, #ins {
+		display: inline-block;
+		margin-right: 0px;
+	}
+
+	.menu{
+		display: inline-block;
+	}
+
+	#contact {
+		float: left;
+		display: inline-block;
+	}
+
+	#upperlogo{
+		display: block;
+		margin-left: 0;
+}
+
+	#outilogo{
+		float: none;
+		width: 180px;
+		padding-bottom: .5em;
+	}
+
+	label{
+		display:block;
+		float: left;
+		padding-top: 30px;
+		margin-left: 0px;
+}
 
 
